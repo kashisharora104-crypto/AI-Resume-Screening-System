@@ -1,0 +1,6 @@
+Candidate,Score,Degree,Strengths,Gaps,Recommendation,Decision,Reason
+Rahul Sharma,95,BTech in Computer Science,"Relevant educational background, Python skills, SQL knowledge",,Strong Fit,Shortlist,High skill match and relevant experience
+Ananya Verma,85,B.Sc in Data Science,"Relevant educational background, Python skills, SQL knowledge",Missing Excel,Strong Fit,Shortlist,High skill match and relevant experience
+Karan Mehta,75,B.Com,"Python skills, SQL knowledge, Excel proficiency","Non-relevant education, No visualization tools",Moderate Fit,Shortlist,Partial skill match with some gaps
+Priya Singh,65,BBA,"SQL knowledge, Excel proficiency, Data visualization tools","Non-relevant education, Missing Python",Moderate Fit,Shortlist,Partial skill match with some gaps
+Aman Gupta,0,BA,,"Non-relevant education, Missing Python, Missing SQL",Not Fit,Reject,Low alignment with job requirements
