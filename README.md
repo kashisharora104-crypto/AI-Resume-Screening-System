@@ -55,6 +55,13 @@ The system can be easily extended in the future by integrating LLM APIs for auto
 - Build a simple UI/dashboard for recruiters  
 
 ---
+## Suggested Improvements to Hiring Process
 
+- Automating initial resume screening can significantly reduce recruiter workload
+- Standardized scoring ensures fair and consistent evaluation
+- Ranking candidates helps prioritize interviews efficiently
+- Integrating this system with ATS tools can streamline hiring workflows
+
+  ---
 ## Note
 This project focuses on system design and logical evaluation rather than model training, aligning with real-world AI-assisted workflows.
