@@ -1,39 +1,60 @@
 # AI Resume Screening System
 
 ## Overview
-This project is an AI-based resume screening system designed to help recruiters efficiently evaluate candidates against a job description.
+Recruiters often have to go through multiple resumes manually, which is time-consuming and inconsistent. To address this, I built a simple AI-inspired resume screening system that evaluates candidates against a given job description and ranks them accordingly.
 
-## Features
-- Evaluates multiple resumes against a job description
-- Generates a match score (0–100)
-- Identifies key strengths and gaps
-- Provides recommendation (Strong Fit / Moderate Fit / Not Fit)
-- Ranks candidates automatically
-- Includes shortlist/reject decision with reasoning
+The goal of this project was not just to generate outputs, but to design a practical system that mimics how a recruiter thinks while shortlisting candidates.
 
-## Approach
-The system uses a rule-based evaluation logic that analyzes:
-- Technical skills (Python, SQL, Excel, Data Visualization)
-- Experience and project exposure
-- Educational background relevance
+---
 
-The results are structured and ranked using Python (Pandas).
+## How It Works
+The system takes:
+- A job description
+- Multiple candidate resumes
+
+It then evaluates each candidate based on:
+- Key technical skills (Python, SQL, Excel, Data Visualization)
+- Relevant experience (internships/projects)
+- Educational background
+
+Each resume is processed using a rule-based scoring logic, and the system generates:
+- A match score (0–100)
+- Key strengths
+- Key gaps
+- A recommendation (Strong Fit / Moderate Fit / Not Fit)
+
+Finally, candidates are ranked and a decision (Shortlist/Reject) is assigned along with a brief reason.
+
+---
+
+## Output
+The final output is a structured table that helps quickly compare candidates and identify the best fits for the role.
+
+---
 
 ## Tech Stack
 - Python
 - Pandas
 - Google Colab
 
-## Output
-The system generates a ranked table of candidates with:
-- Score
-- Strengths
-- Gaps
-- Recommendation
-- Decision
-- Reason
+---
+
+## Why This Approach
+Instead of overcomplicating the solution, I focused on building something that is:
+- Simple and practical
+- Easy to understand and extend
+- Close to real-world hiring workflows
+
+The system can be easily extended in the future by integrating LLM APIs for automated evaluation or by adding resume parsing from PDFs.
+
+---
 
 ## Future Improvements
-- Integration with LLM APIs for automated evaluation
-- Resume parsing from PDF
-- Web-based interface
+- Integrate LLMs (like GPT) for more contextual evaluation  
+- Add support for PDF resume parsing  
+- Build a simple UI/dashboard for recruiters  
+
+---
+
+## Note
+This project focuses on system design and logical evaluation rather than model training, aligning with real-world AI-assisted workflows.
